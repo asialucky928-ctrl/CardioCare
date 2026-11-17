@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .my-hover {
+            transition: all 0.3s ease-in-out !important;
+        }
+        .my-hover:hover {
+            transform: translateY(-5px) !important;
+            box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardioCare - Heart Specialists</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- bootstrap  css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- bootstrap cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+
+     <!-- top bar -->
+
+<div class="top-bar bg-dark text-white py-2">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center small">
+        <div>
+            <span class="text-danger me-1">●</span>
+            <span>24/7 Emergency: <strong>+1 (800) CARDIO</strong></span>
+            <span class="mx-2 text-secondary">|</span>
+            <span>care@cardiocare.com</span>
+        </div>
+        <div class="d-none d-md-block">
+            <span>Mon–Sat: 8AM – 8PM</span>
+            <span class="mx-2 text-secondary">|</span>
+            <span>Emergency: 24/7</span>
+        </div>
+    </div>
+</div>
+
+
+     <!-- main navigation bar -->
+
+<nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm py-3">
+    <div class="container"> 
+        <!--  logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#"> 
+            <div class="logo-box bg-danger text-white rounded-3 me-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                <i class="fa-solid fa-heart"></i>
+            </div> 
+            <div> 
+                <h5 class="mb-0 fw-bold text-dark">CardioCare</h5>
+                <small class="text-muted d-block" style="font-size: 11px;">Heart Specialists</small>
+            </div>
+        </a>
+
+        <!--  hamburger button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar -->
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3">
+                <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#why-us">Departments</a></li>
+                <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#appointment">Appointments</a></li>
+                <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- right cta button -->
+            <a href="#appointment" class="btn btn-danger px-4 py-2 fw-semibold">
+                <i class="fa-regular fa-calendar-plus me-2"></i>Book Appointment
+            </a>
+        </div>
+    </div>
+</nav>
+
+
+     <!--  hero sectio -->
+<section id="home" class="hero-section text-white py-5 position-relative overflow-hidden" style="background-color: #0b0e14;">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
+            
+            <!--  text & cta  -->
+            <div class="col-lg-6">
+                <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge rounded-pill border border-secondary border-opacity-50 bg-dark px-3 py-2 text-light fw-normal">
+                        <i class="fa-solid fa-heart text-danger me-1"></i> Board Certified Cardiologist
+                    </span>
+                    <span class="badge rounded-pill border border-secondary border-opacity-50 bg-dark px-3 py-2 text-light fw-normal">
+                        <i class="fa-solid fa-wave-square text-primary me-1"></i> Advanced Diagnostics
+                    </span>
+                    <span class="badge rounded-pill border border-secondary border-opacity-50 bg-dark px-3 py-2 text-light fw-normal">
+                        <i class="fa-solid fa-shield-heart text-success me-1"></i> Patient-Centered Care
+                    </span>
+                </div>
+
+                <!-- main heading -->
+                <h1 class="display-4 fw-bold mb-3 text-white" style="font-family: 'Outfit', sans-serif; line-height: 1.2;">
+                    Expert Heart Care <br>For A <span class="text-danger">Healthier</span> Life
+                </h1>
+                <p class="text-secondary mb-4" style="font-family: 'Inter', sans-serif; max-width: 500px;">
+                    Providing advanced cardiology services, heart health consultations, preventive care, diagnostics, and personalized treatment plans for patients of all ages.
+                </p>
+
+                <div class="d-flex flex-wrap gap-3 mb-5">
+                    <a href="#appointment" class="btn btn-danger px-4 py-3 rounded-pill fw-semibold shadow-sm d-inline-flex align-items-center gap-2">
+                        <i class="fa-regular fa-calendar-days"></i> Book Appointment
+                    </a>
+                    <a href="#services" class="btn btn-outline-light px-4 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2">
+                        <i class="fa-regular fa-compass"></i> Explore Services
+                    </a>
+                </div>
+
+                <!--  hero bottom -->
+                <div class="row text-start g-4 pt-3 border-top border-secondary border-opacity-25">
+                    <div class="col-4">
+                        <h3 class="fw-bold mb-0 text-white">20+</h3>
+                        <small class="text-secondary">Years Experience</small>
+                    </div>
+                    <div class="col-4 border-start border-secondary border-opacity-25">
+                        <h3 class="fw-bold mb-0 text-white">10K+</h3>
+                        <small class="text-secondary">Patients Treated</small>
+                    </div>
+                    <div class="col-4 border-start border-secondary border-opacity-25">
+                        <h3 class="fw-bold mb-0 text-white">98%</h3>
+                        <small class="text-secondary">Satisfaction Rate</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right column-->
+            <div class="col-lg-6 position-relative">
+                <div class="position-relative p-4">
+                    
+                    <!-- main image card -->
+                    <div class="card bg-dark border border-secondary border-opacity-25 rounded-4 overflow-hidden shadow-lg my-hover">
+                        <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=700&q=80" 
+                             alt="Surgery Team" class="img-fluid w-100 object-fit-cover" style="height: 420px;">
+                    </div>
+
+                    <!--  heart rate-->
+                    <div class="position-absolute top-0 start-0 bg-white text-dark p-3 rounded-4 shadow-lg d-flex align-items-center gap-3 ms-2 mt-2 border border-light-subtle">
+                        <div class="bg-danger bg-opacity-10 text-danger rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-0 text-dark fs-6">Heart Rate</h6>
+                            <small class="text-secondary" style="font-size: 12px;">72 BPM Normal</small>
+                        </div>
+                    </div>
+
+                    <!-- consulation  -->
+                    <div class="position-absolute bottom-0 end-0 bg-white text-dark p-3 rounded-4 shadow-lg d-flex align-items-center gap-3 me-2 mb-2 border border-light-subtle">
+                        <div class="bg-success bg-opacity-10 text-success rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-0 text-dark fs-6">Consultation</h6>
+                            <small class="text-secondary" style="font-size: 12px;">Available Today</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+            <!-- bottom float  -->
+            <div class="position-absolute bottom-0 end-0 translate-middle-y bg-white text-dark p-3 rounded-4 shadow-lg d-flex align-items-center gap-3 me-n3 z-3">
+              <div class="bg-success bg-opacity-10 p-2 rounded-circle text-success">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+              <div>
+                <div class="fw-bold fs-6">Consultation</div>
+                <div class="text-success small">Available Today</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- red emergency banner  -->
+    
+    <section class="emergency-banner bg-danger text-white py-3">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div class="d-flex align-items-center">
+                <span class="me-2">●</span>
+                <p class="mb-0">
+                    <strong>Need Immediate Cardiac Care?</strong> Our emergency team is available 24/7 to help you.
+                </p>
+            </div>
+            <a href="tel:+1800227346" class="btn btn-light text-danger fw-bold px-4">
+                <i class="bi bi-telephone-outbound me-2"></i>Call Emergency Support
+            </a>
+        </div>
+    </section>
+
+    <!-- booking of appointment  -->
+    <section id="appointment" class="py-5 bg-white">
+        <div class="container py-4">
+            <!-- section heading -->
+            <div class="text-center mb-5">
+                <span class="section-pill"><i class="bi bi-calendar-event me-1"></i> BOOK NOW</span>
+                <h2 class="fw-bold display-6 mt-2">Schedule Your Appointment</h2>
+                <p class="text-muted">Quick, simple online booking. Our team will confirm within 2 hours during working hours.</p>
+            </div>
+
+            <!-- dark  card -->
+            <div class="appointment-box p-4 p-md-5 rounded-4 text-white">
+                <form>
+                    <div class="row g-4">
+                        <!-- patient name -->
+              <div class="col-md-4">
+    <label class="form-label small fw-semibold">Patient Name *</label>
+    <input type="text" class="form-control" placeholder="Your full name" autocomplete="nope" name="random_name_xyz" required>
+</div>         
+              
+                        <!-- email -->
+                      <div class="col-md-4">
+           <label class="form-label small fw-semibold">Patient Name *</label>
+          <input type="text" class="form-control" placeholder="Your Email" autocomplete="off">
+          </div>
+
+                        <!-- phone no -->
+                        <div class="col-md-4">
+                            <label class="form-label small fw-semibold">Phone Number *</label>
+                            <input type="tel" class="form-control custom-input" placeholder="+1 (555) 000-0000" required>
+                        </div>
+
+                        <!-- preferred date -->
+                        <div class="col-md-4">
+                            <label class="form-label small fw-semibold">Preferred Date *</label>
+                            <input type="date" class="form-control custom-input" required>
+                        </div>
+
+                        <!-- department -->
+                        <div class="col-md-4">
+                            <label class="form-label small fw-semibold">Department</label>
+                            <select class="form-select custom-input">
+                                <option selected>General Cardiology</option>
+                                <option>ECG & Diagnostics</option>
+                                <option>Hypertension Management</option>
+                                <option>Cardiac Rehabilitation</option>
+                            </select>
+                        </div>
+
+                        <!-- message -->
+                        <div class="col-md-4">
+                            <label class="form-label small fw-semibold">Message</label>
+                            <input type="text" class="form-control custom-input" placeholder="Briefly describe your concern">
+                        </div>
+
+                        <!-- submit btn -->
+                        <div class="col-12 text-center mt-4">
+                            <button type="submit" class="btn btn-danger btn-lg px-5 fw-semibold shadow">
+                                <i class="bi bi-calendar-check me-2"></i>Schedule Appointment
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- meetin of doctor  -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                
+                <!--doctor profile card -->
+               
+    <div class="col-lg-5 position-relative">
+    <div class="doctor-card bg-white p-4 rounded-4 border border-danger text-center shadow-sm my-hover">
+        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80" 
+             alt="Dr. Jonathan Carter" class="img-fluid rounded-3 mb-3">
+        <h4 class="fw-bold mb-1">Dr. Jonathan Carter</h4>
+        <p class="text-danger fw-semibold mb-2">Senior Cardiologist, FACC</p>
+    </div>
+</div>
+
+                <!-- bio, mini stats -->
+                 <div class="col-lg-7">
+                  <span class="section-pill text-dark fw-bold bg-light px-3 py-2 rounded-pill border"><i class="bi bi-person-badge me-1 text-danger"></i> MEET THE DOCTOR</span>
+                    <h2 class="fw-bold display-6 mt-2 mb-3 text-dark">Dedicated to Your Heart Health with 20+ Years of Expertise</h2>
+                    <p class="text-muted mb-4">
+                        Dr. Jonathan Carter is a board-certified cardiologist with over two decades of experience in diagnosing and treating complex cardiovascular conditions. He specializes in interventional cardiology, preventive care, and cardiac rehabilitation.
+                    </p> 
+
+                    <!-- stats grid -->
+                     <div class="row g-3 mb-4">
+                        <div class="col-6">
+                            <div class="bg-white p-3 rounded-3 border">
+                                <h4 class="text-danger fw-bold mb-0">20+</h4>
+                                <small class="text-muted">Years Experience</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-white p-3 rounded-3 border">
+                                <h4 class="text-danger fw-bold mb-0">10K+</h4>
+                                <small class="text-muted">Patients Treated</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-white p-3 rounded-3 border">
+                                <h4 class="text-danger fw-bold mb-0">15+</h4>
+                                <small class="text-muted">Certifications</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-white p-3 rounded-3 border">
+                                <h4 class="text-danger fw-bold mb-0">50+</h4>
+                                <small class="text-muted">Research Papers</small>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!--  checklist -->
+                  
+                    <ul class="list-unstyled mb-4 text-dark">
+    <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>MD, Harvard Medical School, Class of 2001</li>
+    <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Fellowship in Interventional Cardiology, Mayo Clinic</li>
+    <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Fellow of the American College of Cardiology (FACC)</li>
+    <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>American Heart Association Certified Specialist</li>
+</ul>
+
+                    <a href="#appointment" class="btn btn-danger btn-lg px-4 fw-semibold">
+                        <i class="bi bi-calendar-plus me-2"></i>Book a Consultation
+                    </a> 
+                    <div class="col-lg-7">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our servies  -->
+    
+<section class="container py-5">
+    
+    <!--  badge, title, subtitle) -->
+    <div class="text-center mb-5">
+        <span class="badge rounded-pill border border-danger border-opacity-25 bg-danger bg-opacity-10 text-danger fw-semibold py-2 px-3 d-inline-flex align-items-center gap-2 mb-3">
+            <i class="fa-solid fa-heart"></i> OUR SERVICES
+        </span>
+        <h2 class="fw-bold display-6 text-dark mb-2">Comprehensive Cardiac Care Services</h2>
+        <p class="text-secondary">From diagnostics to rehabilitation, we offer a full spectrum of cardiology<br>services tailored to your heart health needs.</p>
+    </div>
+
+    <!-- cards row -->
+    <div class="row g-4">
+
+        <!-- heart health consultation -->
+        <div class="col-md-4">
+            <div class="card border border-light-subtle rounded-4 p-4 shadow-sm bg-white my-hover h-100">
+                <div class="mb-3">
+                    <div class="bg-danger bg-opacity-10 rounded-3 d-inline-flex align-items-center justify-content-center text-danger" style="width: 50px; height: 50px;">
+                        <i class="fa-solid fa-heart fs-4"></i>
+                    </div>
+                </div>
+                <h4 class="fw-bold text-dark mb-2">Heart Health Consultation</h4>
+                <p class="text-secondary small mb-4">
+                    Comprehensive cardiac assessments, risk evaluations, and personalized preventive care plans to keep your heart healthy.
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="text-danger text-decoration-none fw-semibold d-inline-flex align-items-center gap-1">
+                        Learn More <i class="fa-solid fa-arrow-right small"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ECG & diagnostics -->
+        <div class="col-md-4">
+            <div class="card border border-light-subtle rounded-4 p-4 shadow-sm bg-white my-hover h-100">
+                <div class="mb-3">
+                    <div class="bg-primary bg-opacity-10 rounded-3 d-inline-flex align-items-center justify-content-center text-primary" style="width: 50px; height: 50px;">
+                        <i class="fa-solid fa-wave-square fs-4"></i>
+                    </div>
+                </div>
+                <h4 class="fw-bold text-dark mb-2">ECG & Diagnostics</h4>
+                <p class="text-secondary small mb-4">
+                    Advanced electrocardiography, echocardiography, stress testing, and Holter monitoring for accurate heart condition assessment.
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="text-danger text-decoration-none fw-semibold d-inline-flex align-items-center gap-1">
+                        Learn More <i class="fa-solid fa-arrow-right small"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- hypertension management -->
+        <div class="col-md-4">
+            <div class="card border border-light-subtle rounded-4 p-4 shadow-sm bg-white my-hover h-100">
+                <div class="mb-3">
+                    <div class="rounded-3 d-inline-flex align-items-center justify-content-center" style="width: 50px; height: 50px; background-color: rgba(111, 66, 193, 0.1); color: #6f42c1;">
+                        <i class="fa-solid fa-stethoscope fs-4"></i>
+                    </div>
+                </div>
+                <h4 class="fw-bold text-dark mb-2">Hypertension Management</h4>
+                <p class="text-secondary small mb-4">
+                    Personalized blood pressure control programs combining medication management, lifestyle coaching, and continuous monitoring.
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="text-danger text-decoration-none fw-semibold d-inline-flex align-items-center gap-1">
+                        Learn More <i class="fa-solid fa-arrow-right small"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--  cardiac rehabilitation -->
+        <div class="col-md-4">
+            <div class="card border border-light-subtle rounded-4 p-4 shadow-sm bg-white my-hover h-100">
+                <div class="mb-3">
+                    <div class="bg-success bg-opacity-10 rounded-3 d-inline-flex align-items-center justify-content-center text-success" style="width: 50px; height: 50px;">
+                        <i class="fa-solid fa-shield-heart fs-4"></i>
+                    </div>
+                </div>
+                <h4 class="fw-bold text-dark mb-2">Cardiac Rehabilitation</h4>
+                <p class="text-secondary small mb-4">
+                    Structured recovery programs for heart attack survivors and surgery patients to restore strength and improve quality of life.
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="text-danger text-decoration-none fw-semibold d-inline-flex align-items-center gap-1">
+                        Learn More <i class="fa-solid fa-arrow-right small"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+         <!-- preventri cardiologist  -->
+        <div class="col-md-4">
+            <div class="card border border-light-subtle rounded-4 p-4 shadow-sm bg-white my-hover h-100">
+                <div class="mb-3">
+                    <div class="rounded-3 d-inline-flex align-items-center justify-content-center" style="width: 50px; height: 50px; background-color: rgba(255, 193, 7, 0.15); color: #d39e00;">
+                        <i class="fa-solid fa-heart-pulse fs-4"></i>
+                    </div>
+                </div>
+                <h4 class="fw-bold text-dark mb-2">Preventive Cardiology</h4>
+                <p class="text-secondary small mb-4">
+                    Proactive cardiovascular risk reduction through lifestyle modification, nutritional guidance, and targeted preventive therapies.
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="text-danger text-decoration-none fw-semibold d-inline-flex align-items-center gap-1">
+                        Learn More <i class="fa-solid fa-arrow-right small"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+         <!-- cardiac support  -->
+        <div class="col-md-4">
+            <div class="card border border-light-subtle rounded-4 p-4 shadow-sm bg-white my-hover h-100">
+                <div class="mb-3">
+                    <div class="bg-danger bg-opacity-10 rounded-3 d-inline-flex align-items-center justify-content-center text-danger" style="width: 50px; height: 50px;">
+                        <i class="fa-solid fa-triangle-exclamation fs-4"></i>
+                    </div>
+                </div>
+                <h4 class="fw-bold text-dark mb-2">Emergency Cardiac Support</h4>
+                <p class="text-secondary small mb-4">
+                    24/7 rapid response care for acute heart conditions including chest pain, arrhythmias, and cardiac emergencies requiring immediate attention.
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="text-danger text-decoration-none fw-semibold d-inline-flex align-items-center gap-1">
+                        Call Now <i class="fa-solid fa-arrow-right small"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <!-- choose us section -->
+    <section class="py-5" style="background-color: #0b0e14; color: #ffffff;">
+  <div class="container py-5">
+
+    <div class="text-center mb-5">
+      <span class="badge rounded-pill bg-danger bg-opacity-25 text-danger px-3 py-2 text-uppercase fw-semibold mb-3">
+        &#9734; WHY CHOOSE US
+      </span>
+      <h2 class="display-5 fw-bold text-white mb-3" style="font-family: 'Outfit', sans-serif;">The CardioCare Difference</h2>
+      <p class="text-secondary mx-auto mb-0" style="max-width: 550px; font-family: 'Inter', sans-serif;">
+        Excellence in cardiac care with a patient-first approach backed by cutting-edge technology.
+      </p>
+    </div>
+
+    <!-- grid -->
+    <div class="row g-4">
+      
+      <!--  expert medical team -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center p-4 rounded-4 my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center">
+            <div class="rounded-circle d-flex align-items-center justify-content-center mb-4" style="width: 55px; height: 55px; background-color: rgba(220, 38, 38, 0.15);">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h5 class="fw-bold text-white mb-3" style="font-family: 'Outfit', sans-serif;">Expert Medical Team</h5>
+            <p class="text-secondary small mb-0" style="font-family: 'Inter', sans-serif;">
+              Board-certified cardiologists with decades of combined clinical experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--  advanced technology -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center p-4 rounded-4 my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center">
+            <div class="rounded-circle d-flex align-items-center justify-content-center mb-4" style="width: 55px; height: 55px; background-color: rgba(59, 130, 246, 0.15);">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 18h8"></path>
+                <path d="M3 22h18"></path>
+                <path d="M14 22a7 7 0 1 0 0-14h-1"></path>
+                <path d="M9 14h2"></path>
+                <path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"></path>
+                <path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"></path>
+              </svg>
+            </div>
+            <h5 class="fw-bold text-white mb-3" style="font-family: 'Outfit', sans-serif;">Advanced Technology</h5>
+            <p class="text-secondary small mb-0" style="font-family: 'Inter', sans-serif;">
+              State-of-the-art diagnostic equipment for precise, accurate assessments.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--  patient care -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center p-4 rounded-4 my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center">
+            <div class="rounded-circle d-flex align-items-center justify-content-center mb-4" style="width: 55px; height: 55px; background-color: rgba(34, 197, 94, 0.15);">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"></path>
+              </svg>
+            </div>
+            <h5 class="fw-bold text-white mb-3" style="font-family: 'Outfit', sans-serif;">Patient-Centered Care</h5>
+            <p class="text-secondary small mb-0" style="font-family: 'Inter', sans-serif;">
+              Personalized treatment plans built around your unique health profile.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- modern facilities -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center p-4 rounded-4 my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center">
+            <div class="rounded-circle d-flex align-items-center justify-content-center mb-4" style="width: 55px; height: 55px; background-color: rgba(234, 179, 8, 0.15);">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eab308" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect>
+                <path d="M9 22v-4h6v4"></path>
+                <path d="M8 6h.01"></path>
+                <path d="M16 6h.01"></path>
+                <path d="M12 6h.01"></path>
+                <path d="M12 10h.01"></path>
+                <path d="M12 14h.01"></path>
+                <path d="M16 10h.01"></path>
+                <path d="M16 14h.01"></path>
+                <path d="M8 10h.01"></path>
+                <path d="M8 14h.01"></path>
+              </svg>
+            </div>
+            <h5 class="fw-bold text-white mb-3" style="font-family: 'Outfit', sans-serif;">Modern Facilities</h5>
+            <p class="text-secondary small mb-0" style="font-family: 'Inter', sans-serif;">
+              Comfortable, fully-equipped clinic designed for the best patient experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <!-- red counter bar  -->
+<section class="bg-danger text-white py-5 mb-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-6 col-md-3">
+                    <h2 class="display-5 fw-bold mb-1">20</h2>
+                    <p class="mb-0 small">Years of Experience</p>
+                </div>
+                <div class="col-6 col-md-3 border-start border-light border-opacity-25">
+                    <h2 class="display-5 fw-bold mb-1">10,000+</h2>
+                    <p class="mb-0 small">Patients Treated</p>
+                </div>
+                <div class="col-6 col-md-3 border-start border-light border-opacity-25">
+                    <h2 class="display-5 fw-bold mb-1">98</h2>
+                    <p class="mb-0 small">% Patient Satisfaction</p>
+                </div>
+                <div class="col-6 col-md-3 border-start border-light border-opacity-25">
+                    <h2 class="display-5 fw-bold mb-1">24/7</h2>
+                    <p class="mb-0 small">Emergency Care</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+              <!-- treatment section  -->
+      <section id="process" class="py-5 bg-dark text-white">
+        <div class="container py-4">
+           
+           <!-- header  -->
+            <div class="text-center mb-5">
+                <span class="badge rounded-pill bg-danger bg-opacity-25 text-danger px-3 py-2 text-uppercase fw-semibold mb-3">
+                    <i class="bi bi-diagram-3 me-1"></i> TREATMENT PROCESS
+                </span>
+                <h2 class="fw-bold display-6 mt-2 text-white" style="font-family: 'Outfit', sans-serif;">Your Journey to Better Heart Health</h2>
+                <p class="text-secondary">A clear, structured approach to cardiac care from first visit to ongoing wellness.</p>
+            </div> 
+ 
+            <!--  step cards -->
+            <div class="row g-4">  
+                <!-- step 1 -->
+                 <div class="col-md-6 col-lg-3">
+                    <div class="process-card p-4 rounded-4 border text-center h-100 my-hover" style="background-color: #111827; border-color: rgba(255, 255, 255, 0.1) !important;">
+                        <div class="step-circle bg-danger text-white mx-auto mb-3 shadow d-flex align-items-center justify-content-center" style="width: 55px; height: 55px; border-radius: 50%;">
+                            <i class="bi bi-clipboard-check fs-4"></i>
+                        </div>
+                        <h6 class="fw-bold text-white">1. Consultation</h6>
+                        <p class="text-secondary small mb-0">Thorough evaluation of your symptoms, medical history, and risk factors.</p>
+                    </div>
+                </div>
+
+                <!-- step 2  -->
+                  <div class="col-md-6 col-lg-3">
+                    <div class="process-card p-4 rounded-4 border text-center h-100 my-hover" style="background-color: #111827; border-color: rgba(255, 255, 255, 0.1) !important;">
+                        <div class="step-circle bg-dark text-white mx-auto mb-3 shadow d-flex align-items-center justify-content-center border border-secondary border-opacity-25" style="width: 55px; height: 55px; border-radius: 50%;">
+                            <i class="bi bi-search-heart fs-4"></i>
+                        </div>
+                        <h6 class="fw-bold text-white">2. Diagnosis</h6>
+                        <p class="text-secondary small mb-0">Advanced diagnostic tests to accurately identify your heart condition.</p>
+                    </div>
+                </div>   
+
+                <!-- step 3 -->
+                  <div class="col-md-6 col-lg-3">
+                    <div class="process-card p-4 rounded-4 border text-center h-100 my-hover" style="background-color: #111827; border-color: rgba(255, 255, 255, 0.1) !important;">
+                        <div class="step-circle bg-danger text-white mx-auto mb-3 shadow d-flex align-items-center justify-content-center" style="width: 55px; height: 55px; border-radius: 50%;">
+                            <i class="bi bi-file-earmark-medical fs-4"></i>
+                        </div>
+                        <h6 class="fw-bold text-white">3. Treatment Plan</h6>
+                        <p class="text-secondary small mb-0">Personalized treatment strategy combining evidence-based therapies.</p>
+                    </div>
+                </div> 
+
+                 <!-- step 4  -->
+                 <div class="col-md-6 col-lg-3">
+                    <div class="process-card p-4 rounded-4 border text-center h-100 my-hover" style="background-color: #111827; border-color: rgba(255, 255, 255, 0.1) !important;">
+                        <div class="step-circle bg-dark text-white mx-auto mb-3 shadow d-flex align-items-center justify-content-center border border-secondary border-opacity-25" style="width: 55px; height: 55px; border-radius: 50%;">
+                            <i class="bi bi-heart-pulse fs-4"></i>
+                        </div>
+                        <h6 class="fw-bold text-white">4. Ongoing Care</h6>
+                        <p class="text-secondary small mb-0">Continuous monitoring and follow-up to ensure lasting heart health.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- medical deparment  -->
+    <section id="departments" class="py-5 bg-light">
+        <div class="container py-4">
+            
+   
+    <section class="py-5" style="background-color: #0b0e14; color: #ffffff;">
+  <div class="container py-5">
+    
+    <!-- section header -->
+    <div class="text-center mb-5">
+    <span class="badge rounded-pill bg-danger bg-opacity-25 text-danger px-3 py-2 text-uppercase fw-semibold mb-3">
+        💬 TESTIMONIALS
+    </span>
+    <h2 class="display-5 fw-bold text-white mb-2" style="font-family: 'Outfit', sans-serif;">What Our Patients Say</h2>
+    <p class="text-secondary mx-auto mb-0" style="max-width: 550px; font-family: 'Inter', sans-serif;">
+        Thousands of patients trust CardioCare with their heart health. Here are their stories.
+    </p>
+</div>
+
+<!--  carousel slider -->
+<div id="testimonialCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    
+    <!-- slide 1  -->
+    <div class="carousel-item active">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div class="card-body p-0">
+              <div class="text-warning mb-3 fs-5">★★★★★</div>
+              <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                "Dr. Carter literally saved my life. After experiencing chest pains, he immediately ran diagnostics and caught a 90% blockage. The entire team's professionalism and care was extraordinary."
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+              <div class="rounded-circle bg-danger text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px;">MJ</div>
+              <div>
+                <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Michael Johnson</h6>
+                <small class="text-secondary" style="font-size: 12px;">Cardiac Patient, 2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div class="card-body p-0">
+              <div class="text-warning mb-3 fs-5">★★★★★</div>
+              <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                "I've been managing hypertension for 5 years and the team here has completely transformed my approach. My blood pressure is now perfectly controlled and I feel better than I have in years."
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+              <div class="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px;">SE</div>
+              <div>
+                <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Sarah Edwards</h6>
+                <small class="text-secondary" style="font-size: 12px;">Hypertension Patient, 2024</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div class="card-body p-0">
+              <div class="text-warning mb-3 fs-5">★★★★★</div>
+              <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                "The cardiac rehabilitation program was exceptional. The team guided me through every step of my recovery after my bypass surgery. I'm back to hiking and enjoying life fully!"
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+              <div class="rounded-circle bg-success text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px;">RB</div>
+              <div>
+                <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Robert Barnes</h6>
+                <small class="text-secondary" style="font-size: 12px;">Bypass Patient, 2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slide 2 -->
+    <div class="carousel-item">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div class="card-body p-0">
+              <div class="text-warning mb-3 fs-5">★★★★★</div>
+              <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                "As a diabetic with heart disease risk, I needed specialized care. Dr. Carter's preventive program has significantly reduced my cardiovascular risk factors. Highly recommend this clinic."
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+              <div class="rounded-circle text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px; background-color: #7c3aed;">LP</div>
+              <div>
+                <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Linda Park</h6>
+                <small class="text-secondary" style="font-size: 12px;">Preventive Care Patient, 2024</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div class="card-body p-0">
+              <div class="text-warning mb-3 fs-5">★★★★★</div>
+              <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                "I called the emergency line at 3am with symptoms. The response was immediate and professional. Turned out I had an arrhythmia that needed urgent attention. They were lifesavers."
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+              <div class="rounded-circle text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px; background-color: #ea580c;">TW</div>
+              <div>
+                <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Thomas Wilson</h6>
+                <small class="text-secondary" style="font-size: 12px;">Emergency Patient, 2024</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between my-hover" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div class="card-body p-0">
+              <div class="text-warning mb-3 fs-5">★★★★★</div>
+              <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                "The online booking system is so convenient. I got an appointment within 48 hours. The ECG results were explained clearly and the treatment plan was straightforward."
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+              <div class="rounded-circle text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px; background-color: #0d9488;">AM</div>
+              <div>
+                <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Amanda Moore</h6>
+                <small class="text-secondary" style="font-size: 12px;">Diagnostics Patient, 2024</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+        <!-- slide 2 -->
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+                <div class="card-body p-0">
+                  <div class="text-warning mb-3 fs-5">★★★★★</div>
+                  <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                    "As a diabetic with heart disease risk, I needed specialized care. Dr. Carter's preventive program has significantly reduced my cardiovascular risk factors. Highly recommend this clinic."
+                  </p>
+                </div>
+                <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+                  <div class="rounded-circle bg-purple text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px; background-color: #7c3aed;">LP</div>
+                  <div>
+                    <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Linda Park</h6>
+                    <small class="text-secondary" style="font-size: 12px;">Preventive Care Patient, 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+                <div class="card-body p-0">
+                  <div class="text-warning mb-3 fs-5">★★★★★</div>
+                  <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                    "I called the emergency line at 3am with symptoms. The response was immediate and professional. Turned out I had an arrhythmia that needed urgent attention. They were lifesavers."
+                  </p>
+                </div>
+                <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+                  <div class="rounded-circle bg-warning text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px; background-color: #ea580c;">TW</div>
+                  <div>
+                    <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Thomas Wilson</h6>
+                    <small class="text-secondary" style="font-size: 12px;">Emergency Patient, 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 p-4 rounded-4 shadow-sm d-flex flex-column justify-content-between" style="background-color: #111827; border: 1px solid rgba(255, 255, 255, 0.1);">
+                <div class="card-body p-0">
+                  <div class="text-warning mb-3 fs-5">★★★★★</div>
+                  <p class="text-secondary small mb-4" style="font-family: 'Inter', sans-serif; line-height: 1.7;">
+                    "The online booking system is so convenient. I got an appointment within 48 hours. The ECG results were explained clearly and the treatment plan was straightforward."
+                  </p>
+                </div>
+                <div class="d-flex align-items-center gap-3 pt-3 border-top border-secondary border-opacity-25">
+                  <div class="rounded-circle bg-info text-white fw-bold d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; font-size: 14px; background-color: #0d9488;">AM</div>
+                  <div>
+                    <h6 class="fw-bold text-white mb-0" style="font-family: 'Outfit', sans-serif;">Amanda Moore</h6>
+                    <small class="text-secondary" style="font-size: 12px;">Diagnostics Patient, 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center gap-3">
+      <!-- previous arrow-->
+      <button class="btn btn-outline-danger rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 45px; height: 45px; border-color: #dc2626;" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="text-danger fw-bold fs-5">&larr;</span>
+      </button>
+      
+       <!-- carousel indicatesors  -->
+      <div class="carousel-indicators position-static m-0 d-flex align-items-center gap-2">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="rounded-circle bg-secondary border-0" style="width: 8px; height: 8px;" aria-current="true"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="active rounded-pill bg-danger border-0" style="width: 24px; height: 8px;" aria-label="Slide 2"></button>
+      </div>
+
+      <!-- next button  -->
+      <button class="btn btn-outline-danger rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 45px; height: 45px; border-color: #dc2626;" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="text-danger fw-bold fs-5">&rarr;</span>
+      </button>
+    </div>
+
+  </div>
+</section>
+   
+
+            <!-- health blog sectio  -->
+    <section id="blog" class="py-5 bg-light">
+    <div class="container py-4">
+        <!-- section header -->
+        <div class="text-center mb-5">
+            <span class="section-pill"><i class="bi bi-rss me-1"></i> HEALTH BLOG</span>
+            <h2 class="fw-bold display-6 mt-2">Heart Health Insights</h2>
+            <p class="text-muted">Expert articles on cardiology, preventive care, healthy living, and the latest in heart health research.</p>
+        </div>
+
+           <!-- blogs  -->
+        <div class="row g-4">
+            <!--blog card 1 -->
+            <div class="col-md-4">
+                <div class="blog-card bg-white rounded-4 border shadow-sm overflow-hidden h-100 d-flex flex-column my-hover">
+                    <div class="blog-banner bg-danger text-white p-3 position-relative d-flex align-items-center justify-content-center">
+                        <span class="badge bg-white bg-opacity-25 position-absolute top-0 start-0 m-3">Heart Health</span>
+                        <i class="bi bi-heart-fill display-3 opacity-25"></i>
+                    </div>
+                    <div class="p-4 flex-grow-1 d-flex flex-column">
+                        <small class="text-muted mb-2"><i class="bi bi-calendar3 me-1"></i> May 15, 2026</small>
+                        <h6 class="fw-bold mb-2">10 Early Warning Signs of Heart Disease You Shouldn't Ignore</h6>
+                        <p class="text-muted small mb-4 flex-grow-1">Learn the subtle symptoms that could indicate cardiovascular issues and when to seek immediate medical attention.</p>
+                        <a href="blog.html" class="text-danger fw-semibold text-decoration-none small">Read Article →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- blog card 2 -->
+            <div class="col-md-4">
+                <div class="blog-card bg-white rounded-4 border shadow-sm overflow-hidden h-100 d-flex flex-column my-hover">
+                    <div class="blog-banner bg-primary text-white p-3 position-relative d-flex align-items-center justify-content-center">
+                        <span class="badge bg-white bg-opacity-25 position-absolute top-0 start-0 m-3">Preventive Care</span>
+                        <i class="bi bi-activity display-3 opacity-25"></i>
+                    </div>
+                    <div class="p-4 flex-grow-1 d-flex flex-column">
+                        <small class="text-muted mb-2"><i class="bi bi-calendar3 me-1"></i> April 28, 2026</small>
+                        <h6 class="fw-bold mb-2">How to Lower Your Blood Pressure Naturally: A Cardiologist's Guide</h6>
+                        <p class="text-muted small mb-4 flex-grow-1">Evidence-based lifestyle changes that can significantly reduce blood pressure without relying solely on medication.</p>
+                        <a href="blog.html" class="text-danger fw-semibold text-decoration-none small">Read Article →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- blog card 3 -->
+            <div class="col-md-4">
+                <div class="blog-card bg-white rounded-4 border shadow-sm overflow-hidden h-100 d-flex flex-column my-hover">
+                    <div class="blog-banner bg-success text-white p-3 position-relative d-flex align-items-center justify-content-center">
+                        <span class="badge bg-white bg-opacity-25 position-absolute top-0 start-0 m-3">Healthy Living</span>
+                        <i class="bi bi-cup-hot-fill display-3 opacity-25"></i>
+                    </div>
+                    <div class="p-4 flex-grow-1 d-flex flex-column">
+                        <small class="text-muted mb-2"><i class="bi bi-calendar3 me-1"></i> April 10, 2026</small>
+                        <h6 class="fw-bold mb-2">The Mediterranean Diet & Heart Health: What the Science Says</h6>
+                        <p class="text-muted small mb-4 flex-grow-1">Exploring decades of research on how the Mediterranean eating pattern protects against cardiovascular disease.</p>
+                        <a href="blog.html" class="text-danger fw-semibold text-decoration-none small">Read Article →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <!-- artical button-->
+            <div class="text-center mt-5">
+                <a href="blog.html" class="btn btn-outline-danger px-4 py-2 fw-semibold">
+                    <i class="bi bi-book me-2"></i>View All Articles
+                </a>
+            </div>
+        </div>
+    </section>
+    
+     <!-- section header  -->
+    <div class="text-center mb-5">
+      <span class="badge rounded-pill bg-danger bg-opacity-10 text-danger px-3 py-2 text-uppercase fw-semibold mb-3">
+        &#63; FAQ
+      </span>
+      <h2 class="display-5 fw-bold text-dark mb-3">Frequently Asked Questions</h2>
+      <p class="text-muted mx-auto mb-0" style="max-width: 550px;">
+        Everything you need to know about our services and booking process.
+      </p>
+    </div>
+
+    <!-- Faq section -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="accordion accordion-flush" id="faqAccordion">
+          
+          <!-- question 1 -->
+          <div class="accordion-item bg-transparent border-bottom border-secondary border-opacity-25 py-3">
+            <h2 class="accordion-header">
+              <button class="btn w-100 bg-transparent border-0 text-dark fw-semibold fs-5 shadow-none d-flex justify-content-between align-items-center p-0 text-start" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#faq1" 
+                      onmouseover="this.classList.replace('text-dark', 'text-danger')" 
+                      onmouseout="this.classList.replace('text-danger', 'text-dark')">
+                <span>How do I book an appointment?</span>
+                <span class="text-danger fs-3 fw-light">+</span>
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted px-0 pt-3 pb-0">
+                You can book online using our appointment form above or call our 24/7 helpline at +1 (800) CARDIO.
+              </div>
+            </div>
+          </div>
+
+          <!-- question 2 -->
+          <div class="accordion-item bg-transparent border-bottom border-secondary border-opacity-25 py-3">
+            <h2 class="accordion-header">
+              <button class="btn w-100 bg-transparent border-0 text-dark fw-semibold fs-5 shadow-none d-flex justify-content-between align-items-center p-0 text-start" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#faq2" 
+                      onmouseover="this.classList.replace('text-dark', 'text-danger')" 
+                      onmouseout="this.classList.replace('text-danger', 'text-dark')">
+                <span>What heart conditions do you treat?</span>
+                <span class="text-danger fs-3 fw-light">+</span>
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted px-0 pt-3 pb-0">
+                We treat hypertension, coronary artery disease, arrhythmias, heart failure, valve disorders, and provide preventive cardiac screenings.
+              </div>
+            </div>
+          </div>
+
+          <!-- question 3 -->
+          <div class="accordion-item bg-transparent border-bottom border-secondary border-opacity-25 py-3">
+            <h2 class="accordion-header">
+              <button class="btn w-100 bg-transparent border-0 text-dark fw-semibold fs-5 shadow-none d-flex justify-content-between align-items-center p-0 text-start" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#faq3" 
+                      onmouseover="this.classList.replace('text-dark', 'text-danger')" 
+                      onmouseout="this.classList.replace('text-danger', 'text-dark')">
+                <span>Do you offer emergency consultations?</span>
+                <span class="text-danger fs-3 fw-light">+</span>
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted px-0 pt-3 pb-0">
+                Yes, our Emergency Cardiology unit operates 24/7 for urgent chest pain and acute cardiac symptoms.
+              </div>
+            </div>
+          </div>
+
+          <!-- question 4 -->
+          <div class="accordion-item bg-transparent border-bottom border-secondary border-opacity-25 py-3">
+            <h2 class="accordion-header">
+              <button class="btn w-100 bg-transparent border-0 text-dark fw-semibold fs-5 shadow-none d-flex justify-content-between align-items-center p-0 text-start" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#faq4" 
+                      onmouseover="this.classList.replace('text-dark', 'text-danger')" 
+                      onmouseout="this.classList.replace('text-danger', 'text-dark')">
+                <span>What insurance plans are accepted?</span>
+                <span class="text-danger fs-3 fw-light">+</span>
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted px-0 pt-3 pb-0">
+                We accept most major insurance plans including Medicare, Medicaid, Blue Cross Blue Shield, Aetna, Cigna, UnitedHealth, and many more.
+              </div>
+            </div>
+          </div>
+
+          <!-- question 5 -->
+          <div class="accordion-item bg-transparent border-bottom border-secondary border-opacity-25 py-3">
+            <h2 class="accordion-header">
+              <button class="btn w-100 bg-transparent border-0 text-dark fw-semibold fs-5 shadow-none d-flex justify-content-between align-items-center p-0 text-start" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#faq5" 
+                      onmouseover="this.classList.replace('text-dark', 'text-danger')" 
+                      onmouseout="this.classList.replace('text-danger', 'text-dark')">
+                <span>How long does a first consultation take?</span>
+                <span class="text-danger fs-3 fw-light">+</span>
+              </button>
+            </h2>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted px-0 pt-3 pb-0">
+                An initial consultation typically takes 45-60 minutes, including a detailed medical history review, physical examination, and initial diagnostic tests such as an ECG.
+              </div>
+            </div>
+          </div>
+
+          <!-- question 6 -->
+          <div class="accordion-item bg-transparent border-bottom border-secondary border-opacity-25 py-3">
+            <h2 class="accordion-header">
+              <button class="btn w-100 bg-transparent border-0 text-dark fw-semibold fs-5 shadow-none d-flex justify-content-between align-items-center p-0 text-start" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#faq6" 
+                      onmouseover="this.classList.replace('text-dark', 'text-danger')" 
+                      onmouseout="this.classList.replace('text-danger', 'text-dark')">
+                <span>Do you offer telemedicine consultations?</span>
+                <span class="text-danger fs-3 fw-light">+</span>
+              </button>
+            </h2>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted px-0 pt-3 pb-0">
+                Yes, we offer secure video consultations for follow-up visits and initial assessments Monday through Saturday, 9AM to 5PM.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+       <!-- dark cta banner  -->
+<section class="py-5 text-white text-center" style="background: radial-gradient(circle at right, #5c1922 0%, #0b1120 65%);">
+    <div class="container py-4">
+        <span class="badge bg-danger bg-opacity-25 text-danger rounded-pill px-3 py-2 mb-3">
+            <i class="bi bi-heart-fill me-1"></i> TAKE ACTION TODAY
+        </span>
+        <h2 class="display-5 fw-bold mb-3">Take The First Step Toward <br> Better Heart Health</h2>
+        <p class="text-light opacity-75 mx-auto mb-4" style="max-width: 600px;">
+            Don't wait until symptoms become emergencies. Schedule your cardiac consultation today and invest in the health of your heart.
+        </p>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+            <a href="#appointment" class="btn btn-danger btn-lg px-4 fw-semibold">
+                <i class="bi bi-calendar-plus me-2"></i>Book Appointment
+            </a>
+            <a href="#contact" class="btn btn-outline-light btn-lg px-4 fw-semibold">
+                <i class="bi bi-telephone me-2"></i>Contact Clinic
+            </a>
+        </div>
+    </div>
+</section>
+
+        <!-- soft pink section  -->
+<section class="py-5 text-center" style="background-color: #fdf2f2;">
+    <div class="container py-3" style="max-width: 650px;">
+        <div class="bg-danger text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow" style="width: 50px; height: 50px;">
+            <i class="bi bi-envelope fs-5"></i>
+        </div>
+        <h3 class="fw-bold mb-2">Subscribe to Heart Health Updates</h3>
+        <p class="text-muted small mb-4">Receive expert health tips, wellness updates, cardiology news, and clinic announcements directly to your inbox.</p>
+        
+        <form class="d-flex flex-column flex-sm-row gap-2 justify-content-center mb-2">
+           
+            <div class="col-md-8">
+          <input type="email" class="form-control bg-white text-white border-secondary py-3" placeholder="Enter your email address" autocomplete="off" required />
+        </div>
+        <div class="col-md-auto">
+          <button type="submit" class="btn btn-danger w-100 py-3 px-4 fw-semibold">Subscribe</button>
+        </div>
+        </form>
+        <small class="text-muted" style="font-size: 12px;">No spam, ever. Unsubscribe at any time.</small>
+    </div>
+</section>
+ <!-- contact card  -->
+<section id="contact" class="py-5 bg-white">
+    <div class="container py-4">
+        <div class="text-center mb-5">
+            <span class="badge bg-danger-subtle text-danger rounded-pill px-3 py-2">
+                <i class="bi bi-geo-alt me-1"></i> CONTACT US
+            </span>
+            <h2 class="fw-bold display-6 mt-2">Get In Touch</h2>
+            <p class="text-muted">We're here to answer your questions and help you on your heart health journey.</p>
+        </div>
+
+        <div class="row g-4 text-center">
+            <!-- card 1 -->
+            <div class="col-md-4">
+                <div class="p-4 rounded-4 border h-100 shadow-sm">
+                    <div class="bg-danger-subtle text-danger rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 52px; height: 52px;">
+                        <i class="bi bi-telephone fs-5"></i>
+                    </div>
+                    <h6 class="fw-bold">Emergency Contact</h6>
+                    <p class="text-danger fw-bold fs-5 mb-1">+1 (800) CARDIO</p>
+                    <small class="text-muted">Available 24 hours, 7 days a week</small>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-md-4">
+                <div class="p-4 rounded-4 border h-100 shadow-sm">
+                    <div class="bg-primary-subtle text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 52px; height: 52px;">
+                        <i class="bi bi-geo-alt fs-5"></i>
+                    </div>
+                    <h6 class="fw-bold">Clinic Location</h6>
+                    <p class="text-muted small mb-2">123 Medical Center Drive <br> Suite 400, New York, NY 10001</p>
+                    <a href="#" class="text-primary text-decoration-none small fw-semibold">Get Directions →</a>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-md-4">
+                <div class="p-4 rounded-4 border h-100 shadow-sm">
+                    <div class="bg-success-subtle text-success rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 52px; height: 52px;">
+                        <i class="bi bi-clock fs-5"></i>
+                    </div>
+                    <h6 class="fw-bold">Working Hours</h6>
+                    <p class="text-muted small mb-1">Monday – Friday: <strong class="text-dark">8:00 AM – 8:00 PM</strong></p>
+                    <p class="text-muted small mb-1">Saturday: <strong class="text-dark">9:00 AM – 5:00 PM</strong></p>
+                    <p class="text-muted small mb-0">Sunday: <strong class="text-danger">Emergency Only</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+         <!-- footer tp with emergency  -->
+<div class="bg-danger text-white py-3">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div class="d-flex align-items-center gap-3">
+            <div class="bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 42px; height: 42px;">
+                <i class="bi bi-telephone-inbound"></i>
+            </div>
+            <div>
+                <h6 class="fw-bold mb-0">Cardiac Emergency? Call Us Now</h6>
+                <small class="opacity-75">Our emergency team responds within minutes, 24 hours a day.</small>
+            </div>
+        </div>
+       <div class="d-flex gap-2">
+    <a href="tel:+1800227346" class="btn btn-light text-danger fw-bold">
+        <i class="bi bi-telephone me-1"></i> +1 (800) CARDIO
+    </a>
+    <a href="#contact" class="btn btn-outline-light px-4 py-2 fw-semibold">
+Heart Health Newslettemail Us </a>
+  </div>
+    </div>
+</div>
+
+     <!-- main footer  -->
+ <footer class="text-white pt-5 pb-4" style="background-color: #070b14;">
+    <div class="container"> 
+        
+        <!--brand Informatio  -->
+        <div class="row g-4 pb-5 border-bottom border-secondary border-opacity-25">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="bg-danger text-white rounded-3 d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-0 fw-bold">CardioCare</h5>
+                        <small class="text-danger fw-semibold" style="font-size: 11px;">HEART SPECIALISTS</small>
+                    </div>
+                </div>
+                <p class="text-secondary small" style="max-width: 450px;">
+                    CardioCare is a premier cardiology clinic dedicated to delivering world-class heart care with compassion. Since 2003, we've been the most trusted cardiac practice in the region.
+                </p>
+                 <!-- trust badges  -->
+                 <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge bg-dark border border-secondary text-light py-2 px-3"><i class="bi bi-award text-danger me-1"></i> FACC Certified</span>
+                    <span class="badge bg-dark border border-secondary text-light py-2 px-3"><i class="bi bi-shield-check text-primary me-1"></i> HIPAA Compliant</span>
+                    <span class="badge bg-dark border border-secondary text-light py-2 px-3"><i class="bi bi-star text-success me-1"></i> Top Rated 2024</span>
+                    <span class="badge bg-dark border border-secondary text-light py-2 px-3"><i class="bi bi-heart text-warning me-1"></i> AHA Member</span>
+                </div>
+                 <!-- social icons  -->
+                 <div class="d-flex align-items-center gap-2">
+                    <small class="text-secondary me-2">Follow Us:</small>
+                    <a href="#" class="btn btn-primary btn-sm rounded-circle"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn btn-danger btn-sm rounded-circle"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="btn btn-info btn-sm rounded-circle text-white"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="btn btn-danger btn-sm rounded-circle"><i class="bi bi-youtube"></i></a>
+                </div> 
+             </div>  
+
+     
+<!-- footer with emergency strip  -->
+<div class="w-100 bg-danger text-white py-3">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div class="d-flex align-items-center gap-3">
+            <div class="bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 44px; height: 44px;">
+                <i class="bi bi-telephone-inbound fs-5"></i>
+            </div>
+            <div>
+                <h6 class="fw-bold mb-0">Cardiac Emergency? Call Us Now</h6>
+                <small class="opacity-75">Our emergency team responds within minutes, 24 hours a day.</small>
+            </div>
+        </div>
+        <div class="d-flex gap-2">
+            <a href="tel:+1800227346" class="btn btn-light text-danger fw-bold px-3">
+                <i class="bi bi-telephone me-1"></i> +1 (800) CARDIO
+            </a>
+            <a href="mailto:care@cardiocare.com" class="btn btn-outline-light fw-semibold px-3">
+                <i class="bi bi-envelope me-1"></i> Email Us
+            </a>
+        </div>
+    </div>
+</div>
+
+
+     
+      <!-- navy footer  -->
+
+<footer class="w-100 text-white pb-4" style="background-color: #070b14;">
+    
+    <!--  red heartbeat line  -->
+    <div class="w-100 border-bottom border-danger border-opacity-50 mb-5" style="height: 12px;"></div>
+
+    <div class="container">
+        
+        <!--brand info box -->
+        <div class="row g-4 pb-5 border-bottom border-secondary border-opacity-25">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="bg-danger text-white rounded-3 d-flex align-items-center justify-content-center me-2" style="width: 42px; height: 42px;">
+                        <i class="bi bi-heart-fill fs-5"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-0 fw-bold">CardioCare</h5>
+                        <small class="text-danger fw-bold" style="font-size: 11px; letter-spacing: 0.5px;">HEART SPECIALISTS</small>
+                    </div>
+                </div>
+                <p class="text-secondary small mb-4" style="max-width: 460px;">
+                    CardioCare is a premier cardiology clinic dedicated to delivering world-class heart care with compassion. Since 2003, we've been the most trusted cardiac practice in the region, combining advanced technology with a patient-first philosophy.
+                </p>
+
+                <!-- trust badges -->
+                <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge border border-secondary border-opacity-25 text-light py-2 px-3" style="background-color: #0d1320;">
+                        <i class="bi bi-award text-danger me-1"></i> FACC Certified
+                    </span>
+                    <span class="badge border border-secondary border-opacity-25 text-light py-2 px-3" style="background-color: #0d1320;">
+                        <i class="bi bi-shield-check text-primary me-1"></i> HIPAA Compliant
+                    </span>
+                    <span class="badge border border-secondary border-opacity-25 text-light py-2 px-3" style="background-color: #0d1320;">
+                        <i class="bi bi-star text-success me-1"></i> Top Rated 2024
+                    </span>
+                    <span class="badge border border-secondary border-opacity-25 text-light py-2 px-3" style="background-color: #0d1320;">
+                        <i class="bi bi-heart text-warning me-1"></i> AHA Member
+                    </span>
+                </div>
+
+                <!-- social icons -->
+                <div class="d-flex align-items-center gap-2">
+                    <small class="text-secondary me-2">Follow Us:</small>
+                    <a href="#" class="btn btn-primary btn-sm rounded-circle" style="width: 34px; height: 34px;"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn btn-danger btn-sm rounded-circle" style="width: 34px; height: 34px;"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="btn btn-info btn-sm rounded-circle text-white" style="width: 34px; height: 34px;"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="btn btn-danger btn-sm rounded-circle" style="width: 34px; height: 34px;"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+
+            <!--  newsletter card -->
+            <div class="col-lg-6">
+                <div class="p-4 rounded-4 border border-secondary border-opacity-25" style="background-color: #0f131f;">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="bg-danger text-white rounded-3 d-flex align-items-center justify-content-center" style="width: 44px; height: 44px;">
+                            <i class="bi bi-envelope-check fs-5"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-0">Heart Health Newsletter</h6>
+                            <small class="text-secondary">Join 12,000+ subscribers</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary small mb-3">Get weekly tips on heart health, cardiology news, treatment breakthroughs, and clinic updates delivered right to your inbox.</p>
+                    <form class="row g-2 justify-content-center">
+        <div class="col-md-8">
+          <input type="email" class="form-control bg-white text-white border-secondary py-3" placeholder="Enter your email address" autocomplete="off" required />
+        </div>
+        <div class="col-md-auto">
+          <button type="submit" class="btn btn-danger w-100 py-3 px-4 fw-semibold">Subscribe</button>
+        </div>
+      </form>
+                    <small class="text-secondary" style="font-size: 11px;">
+                        <i class="bi bi-lock me-1"></i> Your privacy is protected. Unsubscribe anytime. No spam.
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <!--  footer links columns -->
+        <div class="row g-4 py-5 border-bottom border-secondary border-opacity-25 small">
+            <!-- col 1 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <h6 class="fw-bold mb-3 border-start border-danger border-3 ps-2">Medical Services</h6>
+                <ul class="list-unstyled d-grid gap-2 mb-0">
+                    <li><a href="#services" class="text-secondary text-decoration-none">Heart Consultation</a></li>
+                    <li><a href="#services" class="text-secondary text-decoration-none">ECG & Diagnostics</a></li>
+                    <li><a href="#services" class="text-secondary text-decoration-none">Hypertension Care</a></li>
+                    <li><a href="#services" class="text-secondary text-decoration-none">Cardiac Rehab</a></li>
+                    <li><a href="#services" class="text-secondary text-decoration-none">Preventive Care</a></li>
+                    <li><a href="#services" class="text-secondary text-decoration-none">Emergency Care</a></li>
+                    <li><a href="#departments" class="text-secondary text-decoration-none">Electrophysiology</a></li>
+                </ul>
+            </div>
+
+            <!-- col 2 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <h6 class="fw-bold mb-3 border-start border-primary border-3 ps-2">Patient Resources</h6>
+                <ul class="list-unstyled d-grid gap-2 mb-0">
+                    <li><a href="#appointment" class="text-secondary text-decoration-none">Book Appointment</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Patient Portal</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Telehealth</a></li>
+                    <li><a href="#faq" class="text-secondary text-decoration-none">Patient FAQ</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Insurance Info</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Medical Records</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Billing & Payments</a></li>
+                </ul>
+            </div>
+
+            <!-- col 3 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <h6 class="fw-bold mb-3 border-start border-success border-3 ps-2">Quick Links</h6>
+                <ul class="list-unstyled d-grid gap-2 mb-0">
+                    <li><a href="#about" class="text-secondary text-decoration-none">About Doctor</a></li>
+                    <li><a href="#departments" class="text-secondary text-decoration-none">Departments</a></li>
+                    <li><a href="#blog" class="text-secondary text-decoration-none">Health Blog</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Careers</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Research</a></li>
+                    <li><a href="#contact" class="text-secondary text-decoration-none">Contact Us</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Sitemap</a></li>
+                </ul>
+            </div>
+
+            <!--  working hours -->
+            <div class="col-6 col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3 border-start border-warning border-3 ps-2">Working Hours</h6>
+                <ul class="list-unstyled text-secondary d-grid gap-2 mb-3">
+                    <li class="d-flex justify-content-between"><span>Monday</span><span class="text-white">8AM – 8PM</span></li>
+                    <li class="d-flex justify-content-between"><span>Tuesday</span><span class="text-white">8AM – 8PM</span></li>
+                    <li class="d-flex justify-content-between"><span>Wednesday</span><span class="text-white">8AM – 8PM</span></li>
+                    <li class="d-flex justify-content-between"><span>Thursday</span><span class="text-white">8AM – 8PM</span></li>
+                    <li class="d-flex justify-content-between"><span>Friday</span><span class="text-white">8AM – 6PM</span></li>
+                    <li class="d-flex justify-content-between"><span>Saturday</span><span class="text-white">9AM – 5PM</span></li>
+                    <li class="d-flex justify-content-between"><span>Sunday</span><span class="text-danger">Emergency Only</span></li>
+                </ul>
+                <div class="border border-success border-opacity-50 rounded-3 p-2 text-center text-success" style="background-color: rgba(25, 135, 84, 0.1);">
+                    ● Currently Open
+                </div>
+            </div>
+
+            <!--  contact info -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3 border-start border-danger border-3 ps-2">Contact Info</h6>
+                <div class="d-flex gap-3 mb-3">
+                    <span class="text-danger"><i class="bi bi-geo-alt fs-5"></i></span>
+                    <div>
+                        <strong class="text-white d-block">Our Location</strong>
+                        <span class="text-secondary">123 Medical Center Drive, Suite 400, New York, NY 10001</span>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 mb-3">
+                    <span class="text-danger"><i class="bi bi-telephone fs-5"></i></span>
+                    <div>
+                        <strong class="text-white d-block">Phone</strong>
+                        <span class="text-secondary d-block">+1 (800) CARDIO</span>
+                        <span class="text-secondary">+1 (212) 555-0123</span>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <span class="text-danger"><i class="bi bi-envelope fs-5"></i></span>
+                    <div>
+                        <strong class="text-white d-block">Email</strong>
+                        <span class="text-secondary d-block">care@cardiocare.com</span>
+                        <span class="text-secondary">appointments@cardiocare.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--gallery strip -->
+        <div class="py-4 border-bottom border-secondary border-opacity-25">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h6 class="fw-bold mb-0 border-start border-danger border-3 ps-2 small">Gallery — Our Clinic & Team</h6>
+                <a href="#" class="text-danger text-decoration-none small">View All →</a>
+            </div>
+            <div class="row g-3">
+                <div class="col-4 col-md-2"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=300&q=80" class="img-fluid rounded-3" style="height: 115px; width: 100%; object-fit: cover;"></div>
+                <div class="col-4 col-md-2"><img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=300&q=80" class="img-fluid rounded-3" style="height: 115px; width: 100%; object-fit: cover;"></div>
+                <div class="col-4 col-md-2"><img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=300&q=80" class="img-fluid rounded-3" style="height: 115px; width: 100%; object-fit: cover;"></div>
+                <div class="col-4 col-md-2"><img src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=300&q=80" class="img-fluid rounded-3" style="height: 115px; width: 100%; object-fit: cover;"></div>
+                <div class="col-4 col-md-2"><img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=300&q=80" class="img-fluid rounded-3" style="height: 115px; width: 100%; object-fit: cover;"></div>
+                <div class="col-4 col-md-2"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=300&q=80" class="img-fluid rounded-3" style="height: 115px; width: 100%; object-fit: cover;"></div>
+            </div>
+        </div>
+
+        <!--accreditations  articles -->
+        <div class="row g-4 py-4 border-bottom border-secondary border-opacity-25 small">
+            <div class="col-lg-6">
+                <h6 class="fw-bold mb-3 border-start border-warning border-3 ps-2">Accreditations & Awards</h6>
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="p-3 rounded-3 border border-secondary border-opacity-25 d-flex align-items-center gap-3" style="background-color: #0d1320;">
+                            <div class="bg-warning bg-opacity-10 text-warning rounded-3 p-2"><i class="bi bi-award fs-5"></i></div>
+                            <div>
+                                <strong class="d-block text-white">Best Cardiac Clinic</strong>
+                                <span class="text-secondary" style="font-size: 12px;">NY Health Awards 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 rounded-3 border border-secondary border-opacity-25 d-flex align-items-center gap-3" style="background-color: #0d1320;">
+                            <div class="bg-primary bg-opacity-10 text-primary rounded-3 p-2"><i class="bi bi-shield-check fs-5"></i></div>
+                            <div>
+                                <strong class="d-block text-white">JCAHO Accredited</strong>
+                                <span class="text-secondary" style="font-size: 12px;">Joint Commission 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 rounded-3 border border-secondary border-opacity-25 d-flex align-items-center gap-3" style="background-color: #0d1320;">
+                            <div class="bg-danger bg-opacity-10 text-danger rounded-3 p-2"><i class="bi bi-heart fs-5"></i></div>
+                            <div>
+                                <strong class="d-block text-white">AHA Gold Plus</strong>
+                                <span class="text-secondary" style="font-size: 12px;">Heart Care Quality 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 rounded-3 border border-secondary border-opacity-25 d-flex align-items-center gap-3" style="background-color: #0d1320;">
+                            <div class="bg-success bg-opacity-10 text-success rounded-3 p-2"><i class="bi bi-star fs-5"></i></div>
+                            <div>
+                                <strong class="d-block text-white">US News Top Rated</strong>
+                                <span class="text-secondary" style="font-size: 12px;">Top 10 Cardiologists 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <h6 class="fw-bold mb-3 border-start border-primary border-3 ps-2">Recent Health Articles</h6>
+                <div class="d-grid gap-2">
+                    <a href="blog.html" class="p-2 rounded-3 border border-secondary border-opacity-25 text-decoration-none d-flex align-items-center gap-3" style="background-color: #0d1320;">
+                        <img src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=100&q=80" class="rounded" width="48" height="48" style="object-fit: cover;">
+                        <div>
+                            <strong class="text-white d-block">10 Early Warning Signs of Heart Disease You Shouldn't Ignore</strong>
+                            <small class="text-secondary"><i class="bi bi-calendar3 me-1"></i> May 15, 2026</small>
+                        </div>
+                    </a>
+                    <a href="blog.html" class="p-2 rounded-3 border border-secondary border-opacity-25 text-decoration-none d-flex align-items-center gap-3" style="background-color: #0d1320;">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=100&q=80" class="rounded" width="48" height="48" style="object-fit: cover;">
+                        <div>
+                            <strong class="text-white d-block">How to Lower Your Blood Pressure Naturally</strong>
+                            <small class="text-secondary"><i class="bi bi-calendar3 me-1"></i> April 28, 2026</small>
+                        </div>
+                    </a>
+                    <a href="blog.html" class="p-2 rounded-3 border border-secondary border-opacity-25 text-decoration-none d-flex align-items-center gap-3" style="background-color: #0d1320;">
+                        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=100&q=80" class="rounded" width="48" height="48" style="object-fit: cover;">
+                        <div>
+                            <strong class="text-white d-block">The Mediterranean Diet & Heart Health: What the Science Says</strong>
+                            <small class="text-secondary"><i class="bi bi-calendar3 me-1"></i> April 10, 2026</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+         <!-- bottom copyright & insurance tags   -->
+        <div class="pt-4 d-flex flex-wrap justify-content-between align-items-center gap-3 text-secondary small">
+            <div>
+                <p class="mb-0">© 2026 <strong class="text-white">CardioCare</strong>. All rights reserved by <strong class="text-white">K29Solutions</strong>.</p>
+                <small style="font-size: 11px;">This website is for informational purposes only and does not constitute medical advice.</small>
+            </div>
+            <div class="d-flex flex-wrap gap-3">
+                <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a>
+                <a href="#" class="text-secondary text-decoration-none">Terms of Service</a>
+                <a href="#faq" class="text-secondary text-decoration-none">FAQs</a>
+                <a href="#" class="text-secondary text-decoration-none">Accessibility</a>
+                <a href="#" class="text-secondary text-decoration-none">Cookie Policy</a>
+                <a href="#" class="text-secondary text-decoration-none">Sitemap</a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <span>Insurance:</span>
+                <span class="badge border border-secondary border-opacity-25 text-light" style="background-color: #0d1320;">Medicare</span>
+                <span class="badge border border-secondary border-opacity-25 text-light" style="background-color: #0d1320;">Aetna</span>
+                <span class="badge border border-secondary border-opacity-25 text-light" style="background-color: #0d1320;">BCBS</span>
+                <span class="badge border border-secondary border-opacity-25 text-light" style="background-color: #0d1320;">+more</span>
+            </div>
+        </div>
+
+    </div>
+</footer>
+      
+      
+       
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+    
+</body>
+</html>
